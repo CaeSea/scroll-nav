@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dark Mode Tutorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="./main.js"></script>
+    <script src="./dark-mode.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="header-top">
+            <div class="content-wrapper">
+                <a href="#">
+                    <img class="header-top_logo light-mode-logo" src="./images/kitech-logo--cut.svg" alt="Ki-Tech">
+                </a>
+                <a href="#">
+                    <img class="header-top_logo dark-mode-logo" src="./images/kitech-logo--cut--dark-mode.png" alt="Ki-Tech">
+                </a>
+            </div>
+            <div class="toggle-switch-wrapper">
+                <span class="dark-mode-title">Dark mode</span>
+                <label class="switch">
+                    <input id="dark-mode-switch" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="content-wrapper">
+                <ul class="header-nav--inner">
+                    <li class="nav-item first-nav-item">
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item last-nav-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content-wrapper">
+            <div class="content-padding">
+                <h1>Welcome to Ki-Tech</h1>
+                <p>Your one stop shop for web development and crypto.</p>
+
+                <div class="note-box">
+                    <div class="">
+                        <h2>Top quality HTML, CSS and Javascript tutorials</h2>
+                        <p>All your web development needs in one place.</p>
+                        <a href="#">See videos</a>
+                    </div>
+                    <div class="note-box_image-block">
+                        <img src="./images/html5.png" alt="html5 logo">
+                        <img class="small" src="./images/css.png" alt="css logo">
+                        <img src="./images/js.png" alt="javascript logo">
+                    </div>
+                </div>
+
+                <div class="note-box">
+                    <div class="">
+                        <h2>Crypto discussions, thoughts and analysis</h2>
+                        <p>Hex, Pulsechain and PulseX - all you need to know about these exciting crypto projects.</p>
+                        <a href="#">See videos</a>
+                    </div>
+                    <div class="note-box_image-block">
+                        <img class="small" src="./images/hex.png" alt="hex">
+                        <img class="small" src="./images/pulsechain.svg" alt="pulsechain">
+                        <img class="small" src="./images/pulsex.png" alt="pulsex">
+                    </div>
+                </div>
+
+                <div class="note-box">
+                    <div class="">
+                        <h2>Learn to create snappy, creative features on your web page</h2>
+                        <p>Make your website classy, feature packed and engaging</p>
+                        <a href="#">See videos</a>
+                    </div>
+                    <div class="note-box_image-block">
+                        <img src="./images/html5.png" alt="html5 logo">
+                        <img class="small" src="./images/css.png" alt="css logo">
+                        <img src="./images/js.png" alt="javascript logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
